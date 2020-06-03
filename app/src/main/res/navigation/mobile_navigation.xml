@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.nusocial.ui.home.HomeFragment"
+        android:label="@string/menu_dashboard"
+        tools:layout="@layout/fragment_dasnboard">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_broadcast"
+        android:name="com.example.nusocial.ui.gallery.GalleryFragment"
+        android:label="@string/menu_broadcast"
+        tools:layout="@layout/fragment_broadcast" />
+
+    <fragment
+        android:id="@+id/nav_brag"
+        android:name="com.example.nusocial.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_brag"
+        tools:layout="@layout/fragment_brag" />
+    <fragment
+        android:id="@+id/share"
+        android:name="com.example.nusocial.share"
+        android:label="fragment_share"
+        tools:layout="@layout/fragment_share" />
+</navigation>

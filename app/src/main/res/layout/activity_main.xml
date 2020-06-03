@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bck1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="70dp"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="150dp"
+        android:text="Social"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="80dp"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColor="@color/cardview_dark_background"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="80dp"
+        android:text="NU"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="248dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
